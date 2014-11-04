@@ -2,8 +2,7 @@
   "name": "angular-responsive-images",
   "version": "0.0.4",
   "main": [
-    "dist/angular-responsive-images.js",
-    "dist/angular-responsive-images.min.js"
+    "src/bh-responsive-images.js"
   ],
   "keywords": ["angular", "responsive", "images", "image", "mobile", "directive"],
   "dependencies": {
