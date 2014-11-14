@@ -137,13 +137,6 @@ app.directive('bhSrcResponsive', ['presetMediaQueries', '$timeout', function(pre
         //   updateFromQuery(querySets);
         // });
       });
-
-      // Remove media-query listeners when $scope is destroyed
-      scope.$destroy(function () {
-        angular.forEach(listenerSets, function(set) {
-          set.mql.removeListener(set.listener);
-        });
-      });
     }
   };
 }]);
